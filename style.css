@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   .almighty{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   }
+   .almighty .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: lightblue;
+    align-items: center;
+    width: 600px;
+    height: 100%;
+    border: 3px solid black;
+    padding: 20px;
+    
+
+    position: relative;
+    gap: 20px;
+   }
+   .almighty .container .topSide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+   }
+   .almighty .container .topSide .red{
+    height: 460px;
+    width: 50%;
+    background: red;
+    border: 3px solid black;
+    transition:400ms all ease;
+    cursor:pointer;
+   }
+   .almighty .container .topSide .leftSide{
+    height: 460.8px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.almighty .container .topSide .leftSide .green{
+width: 100%;
+height: 153.3px;
+background-color: green;
+border: 2px solid black;
+transition:400ms all ease;
+cursor:pointer;
+}
+.almighty .container .topSide .leftSide .indigo{
+    width: 100%;
+    height: 153.3px;
+    background-color: aqua;
+    border: 2px solid black;
+    transition:400ms all ease;
+    cursor:pointer;
+}
+.almighty .container .topSide .leftSide .white{
+    width: 100%;
+    height: 153.3px;
+    background-color: white;
+    border: 2px solid black;
+    transition:400ms all ease;
+    cursor:pointer;
+}
+.almighty .container .blue{
+    width: 100%;
+    height: 153.3px;
+    background-color: blue;
+    transition:400ms all ease;
+    cursor:pointer;
+}
