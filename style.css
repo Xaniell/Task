@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+    font-family: "Roboto Condensed", sans-serif;
+  }
    .almighty{
     display: flex;
     flex-direction: column;
@@ -37,9 +39,10 @@
     width: 50%;
     background: red;
     border: 3px solid black;
-    transition:400ms all ease;
+    transition: 400ms all ease;
     cursor:pointer;
    }
+  
    .almighty .container .topSide .leftSide{
     height: 460.8px;
     width: 50%;
@@ -80,3 +83,20 @@ cursor:pointer;
     transition:400ms all ease;
     cursor:pointer;
 }
+.almighty p{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px; */
+    height: 100%;
+}
+/* ****hover****** */
+/* .almighty .container .topSide .red:hover{
+    height: 460px;
+    width: 50%;
+    background: red;
+    border: 3px solid black;
+    transition: 400ms all ease;
+    cursor:pointer;
+   } */
